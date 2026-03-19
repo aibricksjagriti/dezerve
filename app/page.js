@@ -1,7 +1,5 @@
 import HeroSection from "@/src/Home/HeroSection";
-import NriInvestSection from "@/src/Home/NriInvestSection";
-import StackCards from "@/src/Home/StackCards";
-import StickyTabsNavbar from "@/src/Home/StickyTabsNavbar";
+import StickySection from "@/src/Home/StickySection";
 import TrustSection from "@/src/Home/TrustSection";
 import Navbar from "@/src/Navbar";
 
@@ -11,11 +9,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <TrustSection />
-      <StickyTabsNavbar />
-      {/* <StackCards /> */}
-      <NriInvestSection />
-      {/* Spacer */}
-      <div className="h-screen" />
+      <StickySection />
     </div>
   );
 }
