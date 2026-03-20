@@ -1,3 +1,4 @@
+import Footer from "@/src/Footer";
 import HeroSection from "@/src/Home/HeroSection";
 import StickySection from "@/src/Home/StickySection";
 import TrustSection from "@/src/Home/TrustSection";
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <TrustSection />
       <StickySection />
+      <Footer />
     </div>
   );
 }

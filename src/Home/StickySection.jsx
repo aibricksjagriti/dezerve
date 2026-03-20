@@ -5,6 +5,7 @@ import NriInvestSection from "./NriInvestSection";
 import ChallengesSection from "./ChallengesSection";
 import FeaturesSection from "./FeaturesSection";
 import SolutionsSection from "./SolutionsSection";
+import Testimonials from "./Testimonials";
 
 const StickySection = () => {
   const [active, setActive] = useState("Invest In India");
@@ -15,6 +16,7 @@ const StickySection = () => {
       { id: "challenges", tab: "Challenges" },
       { id: "features", tab: "Features" },
       { id: "solutions", tab: "Solutions" },
+      { id: "testimonials", tab: "Testimonials" },
     ];
 
     const handleScroll = () => {
@@ -56,6 +58,7 @@ const StickySection = () => {
       <ChallengesSection />
       <FeaturesSection />
       <SolutionsSection />
+      <Testimonials />
     </div>
   );
 };
